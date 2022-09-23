@@ -64,6 +64,7 @@ Registeration Number : 212221230048
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -125,11 +126,11 @@ public class MainActivity extends AppCompatActivity {
     }
 ```
 ## OUTPUT
-![](1.png)
+![](01.png)
 
-![](2.png)
+![](02.png)
 
-![](3.png)
+![](03.png)
 
 ## RESULT
 Thus a Simple Android Application to open google page using Implicit Intents using Android Studio is developed and executed successfully.
