@@ -183,11 +183,11 @@ public class SecondActivity extends AppCompatActivity {
 }
 ```
 ## OUTPUT
-![](1.png)
+![](01.png)
 
-![](2.png)
+![](02.png)
 
-![](3.png)
+![](03.png)
 
 ## RESULT
 Thus a Simple Android Application to display factorial of the same number using Explicit Intents using Android Studio is developed and executed successfully.
