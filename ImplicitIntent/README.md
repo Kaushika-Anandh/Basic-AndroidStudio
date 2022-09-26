@@ -126,11 +126,11 @@ public class MainActivity extends AppCompatActivity {
     }
 ```
 ## OUTPUT
-![](01.png)
+![](01.PNG)
 
-![](02.png)
+![](02.PNG)
 
-![](03.png)
+![](03.PNG)
 
 ## RESULT
 Thus a Simple Android Application to open google page using Implicit Intents using Android Studio is developed and executed successfully.
