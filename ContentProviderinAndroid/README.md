@@ -25,7 +25,6 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
-
 ## PROGRAM:
 ```
 /*
@@ -36,59 +35,14 @@ Registeration Number : 212221230048
 ```
 ## activity_main.xml:
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/smsButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="@string/send_sms"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
-</RelativeLayout>
 ```
 ## MainActivity.java:
 ```java
-package com.example.smsintent;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button button=(Button) findViewById(R.id.smsButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent =new Intent(Intent.ACTION_VIEW, Uri.fromParts("sms","9902033567",null));
-                intent.putExtra("sms_body","SMS using Intent");
-                startActivity(intent);
-            }
-        });
-    }
-}
 ```
 
 ## OUTPUT
-![](o1.PNG)
 
-![](o2.PNG)
-
-![](o3.PNG)
 ## RESULT
 Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully.
