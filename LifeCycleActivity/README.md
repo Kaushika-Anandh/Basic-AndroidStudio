@@ -1,3 +1,6 @@
+Exp: 01
+Date: 31.08.2022
+
 # Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
 
 ## AIM:
