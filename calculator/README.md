@@ -1,3 +1,7 @@
+Exp: 07
+
+Date: 21.10.2022
+
 # Ex.No:7 Develop a simple calculator using android studio.
 
 ## AIM:
