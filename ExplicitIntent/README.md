@@ -1,3 +1,6 @@
+Exp: 2b
+
+Date: 09.09.2022
 
 # Ex.No:2b Explicit Intents
 
