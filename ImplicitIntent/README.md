@@ -1,3 +1,6 @@
+Exp: 2a
+
+Date: 09.09.2022
 
 # Ex.No:2a Implicit Intent
 
