@@ -1,3 +1,6 @@
+Exp: 10
+
+Date: 16.11.2022
 
 # Ex.No:10 Design an application that draws basic graphical primitives on the screen.
 
