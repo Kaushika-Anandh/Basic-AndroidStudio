@@ -39,7 +39,71 @@ Registeration Number : 212221230048
 ```
 ## activity_main.xml:
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:text="Items" />
+
+    <CheckBox
+        android:id="@+id/checkand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       style="@style/TextAppearance.AppCompat.Large"
+        android:text="android" />
+
+    <CheckBox
+        android:id="@+id/checkjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="Java" />
+
+    <CheckBox
+        android:id="@+id/checkphp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="php" />
+
+    <CheckBox
+        android:id="@+id/checkcpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="Cpp" />
+
+    <CheckBox
+        android:id="@+id/checkc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttondis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="showSelected"
+        android:text="Display" />
+
+
+</LinearLayout>
 ```
 ## MainActivity.java:
 ```java
